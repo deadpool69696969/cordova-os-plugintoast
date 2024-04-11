@@ -13,12 +13,4 @@
 <config-file parent="/*" target="AndroidManifest.xml" />
 <source-file src="src/android/OSPlugin.java" target-dir="src/cordova-os-plugin/OSPlugin" />
 </platform>
-<platform name="ios">
-<config-file parent="/*" target="config.xml">
-<feature name="OSPlugin">
-<param name="ios-package" value="OSPlugin" />
-</feature>
-</config-file>
-<source-file src="src/ios/OSPlugin.m" />
-</platform>
 </plugin>
